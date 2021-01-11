@@ -13,6 +13,8 @@ public class IndexController {
 	@RequestMapping("/index")
 	public String index() {
 
+		LOGGER.debug("这是debug");
+
 		return "index";
 	}
 
